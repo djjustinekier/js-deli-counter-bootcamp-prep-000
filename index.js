@@ -27,7 +27,7 @@ function currentLine(newArr) {
     return "The line is currently empty.";
   }
   else {
-    
+
     for (var x = 0; x < newArr.length; x++){
       var number = x + 1;
     var  name += x + ". " + newArr[x] + ",";
