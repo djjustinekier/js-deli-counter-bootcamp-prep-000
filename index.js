@@ -29,7 +29,7 @@ function currentLine(newArr) {
   else {
     for(x = 0; x<= newArr.length; x++){
       var numb = x + 1;
-      return 'The line is currently: ' + newArr[x];
+      return 'The line is currently: '+ numb + newArr[x];
     }
   }
 }
