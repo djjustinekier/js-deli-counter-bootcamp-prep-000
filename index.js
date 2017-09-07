@@ -27,7 +27,7 @@ function currentLine(newArr) {
     return "The line is currently empty.";
   }
   else {
-    for(x = 0; x<= newArr.length; x++){
+    for(var x = 0; x<= newArr.length; x++){
       var numb = x + 1;
       return 'The line is currently: '+ numb + newArr[x];
     }
