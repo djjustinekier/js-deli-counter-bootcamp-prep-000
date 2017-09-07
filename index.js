@@ -32,6 +32,6 @@ function currentLine(newArr) {
       var number = x + 1;
    	name += number + ". " + newArr[x] + ", ";
     }
-    return "The line is currently: " + name;
+    return "The line is currently:" + name;
   }
 }
