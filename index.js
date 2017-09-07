@@ -30,8 +30,13 @@ function currentLine(newArr) {
     var name = " "
     for (var x = 0; x < newArr.length; x++){
       var number = x + 1;
-   	name += number + ". " + newArr[x] + ", ";
-    }
+      var last = newArr.length;
+      if (number != last) {
+        name += number + ". " + newArr[x] + ", ";
+      }
+      else {
+   	    name += number + ". " + newArr[x];
+      }
     return "The line is currently:" + name;
   }
 }
