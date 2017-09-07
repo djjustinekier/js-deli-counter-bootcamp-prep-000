@@ -37,6 +37,7 @@ function currentLine(newArr) {
       else {
    	    name += number + ". " + newArr[x];
       }
+    }
     return "The line is currently:" + name;
   }
 }
