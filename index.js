@@ -29,8 +29,9 @@ function currentLine(newArr) {
   else {
 
     for (var x = 0; x < newArr.length; x++){
+      var name = " ";
       var number = x + 1;
-    var  name += x + ". " + newArr[x] + ",";
+      name += x + ". " + newArr[x] + ",";
     }
     return "The line is currently: " + name;
   }
