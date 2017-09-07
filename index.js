@@ -27,15 +27,11 @@ function currentLine(newArr) {
     return "The line is currently empty.";
   }
   else {
-    for(var x = 0; x < newArr.length; x++){
-      var numb = x + 1;
-      return 'The line is currently: '+ numb + newArr[x];
+    var name = " "
+    for (var x = 0; x < newArr.length; x++){
+      var number = x + 1;
+   	name += number + ". " + newArr[x] + ", ";
     }
+    return "The line is currently: " + name;
   }
 }
-
-console.log(takeANumber(katzDeliLine,"ako"));
-console.log(takeANumber(katzDeliLine,"me"));
-console.log(takeANumber(katzDeliLine,"kier"));
-
-console.log(currentLine(katzDeliLine));
